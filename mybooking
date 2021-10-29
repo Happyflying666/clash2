@@ -5,363 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇴 RO_10630, server: 79.110.54.133, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇷🇴 RO_10875, server: 79.110.54.133, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇷🇴 RO_10877, server: 79.110.54.133, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇷🇴 RO_10425, server: 79.110.54.133, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r}
-  - {name: 🇷🇴 RO_10882, server: 79.110.54.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 RO_10629, server: 79.110.54.133, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇷🇴 RO_10876, server: 79.110.54.133, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇷🇴 RO_10628, server: 79.110.54.133, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇫🇷 FR_4649, server: 185.166.84.81, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇷🇴 RO_9767, server: 79.110.54.133, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: ZZ_19105, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_2279 |105.04Mb, server: 198.57.27.243, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇷🇴 RO_10878, server: 79.110.54.133, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: ZZ_19109, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14933, server: 167.88.63.107, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_18570, server: 134.195.196.154, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_19093, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_19114, server: 134.195.198.252, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_2304 |95.76Mb, server: 198.57.27.247, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14807, server: 172.99.190.90, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14865, server: 172.99.190.35, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14889, server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14896, server: 167.88.63.89, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14906, server: 167.88.63.107, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇷🇴 RO_1790, server: 89.37.95.23, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 US_14863, server: 167.88.63.107, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14925, server: 167.88.63.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_19115, server: 134.195.196.97, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_19117, server: 134.195.196.154, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14756, server: 167.88.63.28, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14840, server: 172.99.190.232, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14848, server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14852, server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14859, server: 167.88.63.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14861, server: 167.88.63.28, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14898, server: 172.99.190.139, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_19107, server: 134.195.198.95, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_19108, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_19116, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_2283 |87.16Mb, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_2311 |103.72Mb, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: GB_5078, server: 193.118.60.182, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14609, server: 167.88.63.89, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14900, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14914, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14953, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14963, server: 172.99.190.57, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_18400, server: 134.195.198.95, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_19103, server: 134.195.198.195, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14384, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14387, server: 172.99.190.230, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14764, server: 172.99.190.7, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14856, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14875, server: 172.99.190.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14930, server: 167.88.63.82, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14947, server: 172.99.190.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14972, server: 172.99.190.230, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14975, server: 172.99.190.230, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_19102, server: 134.195.198.250, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_19110, server: 134.195.198.250, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_19111, server: 134.195.196.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_19113, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_19130, server: 134.195.196.97, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: CA_2305 |87.24Mb, server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14758, server: 172.99.190.7, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14838, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14867, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14918, server: 172.99.190.139, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14923, server: 172.99.190.130, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14966, server: 172.99.190.230, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14970, server: 172.99.190.130, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_17826, server: kr.jxnet.top, port: 56666, type: vmess, uuid: 17bf1887-bbc7-4b66-e5a4-59d7b574cdbf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 Pool_US_16758, server: 66.115.177.143, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 US_14804, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14832, server: 172.99.190.158, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14834, server: 172.99.190.57, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14909, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14927, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 US_14973, server: 172.99.190.246, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14386, server: 172.99.190.130, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_14962, server: 172.99.190.130, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇰🇷 KR_8312, server: azhk.xhbao.me, port: 54250, type: vmess, uuid: a9bd4a1f-4796-4016-9f95-f0fc778ada86, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: azhk.xhbao.me}}
-  - {name: 🇺🇸 US_14799, server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US_14873, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: CA_2275 |69.05Mb, server: 198.57.27.225, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: Pool_, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇷🇴 RO_8175 |70.77Mb, server: 79.110.54.133, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: ZZ_97, server: 134.195.196.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇷🇴 RO_8177 |68.25Mb, server: 79.110.54.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: ZZ_16573, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16585, server: 134.195.196.199, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16586, server: 134.195.196.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16636, server: 134.195.196.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_58, server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16671, server: 134.195.196.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16593, server: 134.195.196.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16646, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16595, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16597, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_106, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16610, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16629, server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇴 RO_10630
-      - 🇷🇴 RO_10875
-      - 🇷🇴 RO_10877
-      - 🇷🇴 RO_10425
-      - 🇷🇴 RO_10882
-      - 🇷🇴 RO_10629
-      - 🇷🇴 RO_10876
-      - 🇷🇴 RO_10628
-      - 🇫🇷 FR_4649
-      - 🇷🇴 RO_9767
-      - ZZ_19105
-      - CA_2279 |105.04Mb
-      - 🇷🇴 RO_10878
-      - ZZ_19109
-      - 🇺🇸 US_14933
-      - ZZ_18570
-      - ZZ_19093
-      - ZZ_19114
-      - CA_2304 |95.76Mb
-      - 🇺🇸 US_14807
-      - 🇺🇸 US_14865
-      - 🇺🇸 US_14889
-      - 🇺🇸 US_14896
-      - 🇺🇸 US_14906
-      - 🇷🇴 RO_1790
-      - 🇺🇸 US_14863
-      - 🇺🇸 US_14925
-      - ZZ_19115
-      - ZZ_19117
-      - 🇺🇸 US_14756
-      - 🇺🇸 US_14840
-      - 🇺🇸 US_14848
-      - 🇺🇸 US_14852
-      - 🇺🇸 US_14859
-      - 🇺🇸 US_14861
-      - 🇺🇸 US_14898
-      - ZZ_19107
-      - ZZ_19108
-      - ZZ_19116
-      - CA_2283 |87.16Mb
-      - CA_2311 |103.72Mb
-      - GB_5078
-      - 🇺🇸 US_14609
-      - 🇺🇸 US_14900
-      - 🇺🇸 US_14914
-      - 🇺🇸 US_14953
-      - 🇺🇸 US_14963
-      - ZZ_18400
-      - ZZ_19103
-      - 🇺🇸 US_14384
-      - 🇺🇸 US_14387
-      - 🇺🇸 US_14764
-      - 🇺🇸 US_14856
-      - 🇺🇸 US_14875
-      - 🇺🇸 US_14930
-      - 🇺🇸 US_14947
-      - 🇺🇸 US_14972
-      - 🇺🇸 US_14975
-      - ZZ_19102
-      - ZZ_19110
-      - ZZ_19111
-      - ZZ_19113
-      - ZZ_19130
-      - CA_2305 |87.24Mb
-      - 🇺🇸 US_14758
-      - 🇺🇸 US_14838
-      - 🇺🇸 US_14867
-      - 🇺🇸 US_14918
-      - 🇺🇸 US_14923
-      - 🇺🇸 US_14966
-      - 🇺🇸 US_14970
-      - 🇺🇸 US_17826
-      - 🇺🇸 Pool_US_16758
-      - 🇺🇸 US_14804
-      - 🇺🇸 US_14832
-      - 🇺🇸 US_14834
-      - 🇺🇸 US_14909
-      - 🇺🇸 US_14927
-      - 🇺🇸 US_14973
-      - 🇺🇸 US_14386
-      - 🇺🇸 US_14962
-      - 🇰🇷 KR_8312
-      - 🇺🇸 US_14799
-      - 🇺🇸 US_14873
-      - CA_2275 |69.05Mb
+      - Pool_
+      - 🇷🇴 RO_8175 |70.77Mb
+      - ZZ_97
+      - 🇷🇴 RO_8177 |68.25Mb
+      - ZZ_16573
+      - ZZ_16585
+      - ZZ_16586
+      - ZZ_16636
+      - 🇺🇸 US_58
+      - ZZ_16671
+      - ZZ_16593
+      - ZZ_16646
+      - ZZ_16595
+      - ZZ_16597
+      - ZZ_106
+      - ZZ_16610
+      - ZZ_16629
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇷🇴 RO_10630
-      - 🇷🇴 RO_10875
-      - 🇷🇴 RO_10877
-      - 🇷🇴 RO_10425
-      - 🇷🇴 RO_10882
-      - 🇷🇴 RO_10629
-      - 🇷🇴 RO_10876
-      - 🇷🇴 RO_10628
-      - 🇫🇷 FR_4649
-      - 🇷🇴 RO_9767
-      - ZZ_19105
-      - CA_2279 |105.04Mb
-      - 🇷🇴 RO_10878
-      - ZZ_19109
-      - 🇺🇸 US_14933
-      - ZZ_18570
-      - ZZ_19093
-      - ZZ_19114
-      - CA_2304 |95.76Mb
-      - 🇺🇸 US_14807
-      - 🇺🇸 US_14865
-      - 🇺🇸 US_14889
-      - 🇺🇸 US_14896
-      - 🇺🇸 US_14906
-      - 🇷🇴 RO_1790
-      - 🇺🇸 US_14863
-      - 🇺🇸 US_14925
-      - ZZ_19115
-      - ZZ_19117
-      - 🇺🇸 US_14756
-      - 🇺🇸 US_14840
-      - 🇺🇸 US_14848
-      - 🇺🇸 US_14852
-      - 🇺🇸 US_14859
-      - 🇺🇸 US_14861
-      - 🇺🇸 US_14898
-      - ZZ_19107
-      - ZZ_19108
-      - ZZ_19116
-      - CA_2283 |87.16Mb
-      - CA_2311 |103.72Mb
-      - GB_5078
-      - 🇺🇸 US_14609
-      - 🇺🇸 US_14900
-      - 🇺🇸 US_14914
-      - 🇺🇸 US_14953
-      - 🇺🇸 US_14963
-      - ZZ_18400
-      - ZZ_19103
-      - 🇺🇸 US_14384
-      - 🇺🇸 US_14387
-      - 🇺🇸 US_14764
-      - 🇺🇸 US_14856
-      - 🇺🇸 US_14875
-      - 🇺🇸 US_14930
-      - 🇺🇸 US_14947
-      - 🇺🇸 US_14972
-      - 🇺🇸 US_14975
-      - ZZ_19102
-      - ZZ_19110
-      - ZZ_19111
-      - ZZ_19113
-      - ZZ_19130
-      - CA_2305 |87.24Mb
-      - 🇺🇸 US_14758
-      - 🇺🇸 US_14838
-      - 🇺🇸 US_14867
-      - 🇺🇸 US_14918
-      - 🇺🇸 US_14923
-      - 🇺🇸 US_14966
-      - 🇺🇸 US_14970
-      - 🇺🇸 US_17826
-      - 🇺🇸 Pool_US_16758
-      - 🇺🇸 US_14804
-      - 🇺🇸 US_14832
-      - 🇺🇸 US_14834
-      - 🇺🇸 US_14909
-      - 🇺🇸 US_14927
-      - 🇺🇸 US_14973
-      - 🇺🇸 US_14386
-      - 🇺🇸 US_14962
-      - 🇰🇷 KR_8312
-      - 🇺🇸 US_14799
-      - 🇺🇸 US_14873
-      - CA_2275 |69.05Mb
+      - Pool_
+      - 🇷🇴 RO_8175 |70.77Mb
+      - ZZ_97
+      - 🇷🇴 RO_8177 |68.25Mb
+      - ZZ_16573
+      - ZZ_16585
+      - ZZ_16586
+      - ZZ_16636
+      - 🇺🇸 US_58
+      - ZZ_16671
+      - ZZ_16593
+      - ZZ_16646
+      - ZZ_16595
+      - ZZ_16597
+      - ZZ_106
+      - ZZ_16610
+      - ZZ_16629
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇴 RO_10630
-      - 🇷🇴 RO_10875
-      - 🇷🇴 RO_10877
-      - 🇷🇴 RO_10425
-      - 🇷🇴 RO_10882
-      - 🇷🇴 RO_10629
-      - 🇷🇴 RO_10876
-      - 🇷🇴 RO_10628
-      - 🇫🇷 FR_4649
-      - 🇷🇴 RO_9767
-      - ZZ_19105
-      - CA_2279 |105.04Mb
-      - 🇷🇴 RO_10878
-      - ZZ_19109
-      - 🇺🇸 US_14933
-      - ZZ_18570
-      - ZZ_19093
-      - ZZ_19114
-      - CA_2304 |95.76Mb
-      - 🇺🇸 US_14807
-      - 🇺🇸 US_14865
-      - 🇺🇸 US_14889
-      - 🇺🇸 US_14896
-      - 🇺🇸 US_14906
-      - 🇷🇴 RO_1790
-      - 🇺🇸 US_14863
-      - 🇺🇸 US_14925
-      - ZZ_19115
-      - ZZ_19117
-      - 🇺🇸 US_14756
-      - 🇺🇸 US_14840
-      - 🇺🇸 US_14848
-      - 🇺🇸 US_14852
-      - 🇺🇸 US_14859
-      - 🇺🇸 US_14861
-      - 🇺🇸 US_14898
-      - ZZ_19107
-      - ZZ_19108
-      - ZZ_19116
-      - CA_2283 |87.16Mb
-      - CA_2311 |103.72Mb
-      - GB_5078
-      - 🇺🇸 US_14609
-      - 🇺🇸 US_14900
-      - 🇺🇸 US_14914
-      - 🇺🇸 US_14953
-      - 🇺🇸 US_14963
-      - ZZ_18400
-      - ZZ_19103
-      - 🇺🇸 US_14384
-      - 🇺🇸 US_14387
-      - 🇺🇸 US_14764
-      - 🇺🇸 US_14856
-      - 🇺🇸 US_14875
-      - 🇺🇸 US_14930
-      - 🇺🇸 US_14947
-      - 🇺🇸 US_14972
-      - 🇺🇸 US_14975
-      - ZZ_19102
-      - ZZ_19110
-      - ZZ_19111
-      - ZZ_19113
-      - ZZ_19130
-      - CA_2305 |87.24Mb
-      - 🇺🇸 US_14758
-      - 🇺🇸 US_14838
-      - 🇺🇸 US_14867
-      - 🇺🇸 US_14918
-      - 🇺🇸 US_14923
-      - 🇺🇸 US_14966
-      - 🇺🇸 US_14970
-      - 🇺🇸 US_17826
-      - 🇺🇸 Pool_US_16758
-      - 🇺🇸 US_14804
-      - 🇺🇸 US_14832
-      - 🇺🇸 US_14834
-      - 🇺🇸 US_14909
-      - 🇺🇸 US_14927
-      - 🇺🇸 US_14973
-      - 🇺🇸 US_14386
-      - 🇺🇸 US_14962
-      - 🇰🇷 KR_8312
-      - 🇺🇸 US_14799
-      - 🇺🇸 US_14873
-      - CA_2275 |69.05Mb
+      - Pool_
+      - 🇷🇴 RO_8175 |70.77Mb
+      - ZZ_97
+      - 🇷🇴 RO_8177 |68.25Mb
+      - ZZ_16573
+      - ZZ_16585
+      - ZZ_16586
+      - ZZ_16636
+      - 🇺🇸 US_58
+      - ZZ_16671
+      - ZZ_16593
+      - ZZ_16646
+      - ZZ_16595
+      - ZZ_16597
+      - ZZ_106
+      - ZZ_16610
+      - ZZ_16629
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -372,272 +100,68 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇴 RO_10630
-      - 🇷🇴 RO_10875
-      - 🇷🇴 RO_10877
-      - 🇷🇴 RO_10425
-      - 🇷🇴 RO_10882
-      - 🇷🇴 RO_10629
-      - 🇷🇴 RO_10876
-      - 🇷🇴 RO_10628
-      - 🇫🇷 FR_4649
-      - 🇷🇴 RO_9767
-      - ZZ_19105
-      - CA_2279 |105.04Mb
-      - 🇷🇴 RO_10878
-      - ZZ_19109
-      - 🇺🇸 US_14933
-      - ZZ_18570
-      - ZZ_19093
-      - ZZ_19114
-      - CA_2304 |95.76Mb
-      - 🇺🇸 US_14807
-      - 🇺🇸 US_14865
-      - 🇺🇸 US_14889
-      - 🇺🇸 US_14896
-      - 🇺🇸 US_14906
-      - 🇷🇴 RO_1790
-      - 🇺🇸 US_14863
-      - 🇺🇸 US_14925
-      - ZZ_19115
-      - ZZ_19117
-      - 🇺🇸 US_14756
-      - 🇺🇸 US_14840
-      - 🇺🇸 US_14848
-      - 🇺🇸 US_14852
-      - 🇺🇸 US_14859
-      - 🇺🇸 US_14861
-      - 🇺🇸 US_14898
-      - ZZ_19107
-      - ZZ_19108
-      - ZZ_19116
-      - CA_2283 |87.16Mb
-      - CA_2311 |103.72Mb
-      - GB_5078
-      - 🇺🇸 US_14609
-      - 🇺🇸 US_14900
-      - 🇺🇸 US_14914
-      - 🇺🇸 US_14953
-      - 🇺🇸 US_14963
-      - ZZ_18400
-      - ZZ_19103
-      - 🇺🇸 US_14384
-      - 🇺🇸 US_14387
-      - 🇺🇸 US_14764
-      - 🇺🇸 US_14856
-      - 🇺🇸 US_14875
-      - 🇺🇸 US_14930
-      - 🇺🇸 US_14947
-      - 🇺🇸 US_14972
-      - 🇺🇸 US_14975
-      - ZZ_19102
-      - ZZ_19110
-      - ZZ_19111
-      - ZZ_19113
-      - ZZ_19130
-      - CA_2305 |87.24Mb
-      - 🇺🇸 US_14758
-      - 🇺🇸 US_14838
-      - 🇺🇸 US_14867
-      - 🇺🇸 US_14918
-      - 🇺🇸 US_14923
-      - 🇺🇸 US_14966
-      - 🇺🇸 US_14970
-      - 🇺🇸 US_17826
-      - 🇺🇸 Pool_US_16758
-      - 🇺🇸 US_14804
-      - 🇺🇸 US_14832
-      - 🇺🇸 US_14834
-      - 🇺🇸 US_14909
-      - 🇺🇸 US_14927
-      - 🇺🇸 US_14973
-      - 🇺🇸 US_14386
-      - 🇺🇸 US_14962
-      - 🇰🇷 KR_8312
-      - 🇺🇸 US_14799
-      - 🇺🇸 US_14873
-      - CA_2275 |69.05Mb
+      - Pool_
+      - 🇷🇴 RO_8175 |70.77Mb
+      - ZZ_97
+      - 🇷🇴 RO_8177 |68.25Mb
+      - ZZ_16573
+      - ZZ_16585
+      - ZZ_16586
+      - ZZ_16636
+      - 🇺🇸 US_58
+      - ZZ_16671
+      - ZZ_16593
+      - ZZ_16646
+      - ZZ_16595
+      - ZZ_16597
+      - ZZ_106
+      - ZZ_16610
+      - ZZ_16629
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇷🇴 RO_10630
-      - 🇷🇴 RO_10875
-      - 🇷🇴 RO_10877
-      - 🇷🇴 RO_10425
-      - 🇷🇴 RO_10882
-      - 🇷🇴 RO_10629
-      - 🇷🇴 RO_10876
-      - 🇷🇴 RO_10628
-      - 🇫🇷 FR_4649
-      - 🇷🇴 RO_9767
-      - ZZ_19105
-      - CA_2279 |105.04Mb
-      - 🇷🇴 RO_10878
-      - ZZ_19109
-      - 🇺🇸 US_14933
-      - ZZ_18570
-      - ZZ_19093
-      - ZZ_19114
-      - CA_2304 |95.76Mb
-      - 🇺🇸 US_14807
-      - 🇺🇸 US_14865
-      - 🇺🇸 US_14889
-      - 🇺🇸 US_14896
-      - 🇺🇸 US_14906
-      - 🇷🇴 RO_1790
-      - 🇺🇸 US_14863
-      - 🇺🇸 US_14925
-      - ZZ_19115
-      - ZZ_19117
-      - 🇺🇸 US_14756
-      - 🇺🇸 US_14840
-      - 🇺🇸 US_14848
-      - 🇺🇸 US_14852
-      - 🇺🇸 US_14859
-      - 🇺🇸 US_14861
-      - 🇺🇸 US_14898
-      - ZZ_19107
-      - ZZ_19108
-      - ZZ_19116
-      - CA_2283 |87.16Mb
-      - CA_2311 |103.72Mb
-      - GB_5078
-      - 🇺🇸 US_14609
-      - 🇺🇸 US_14900
-      - 🇺🇸 US_14914
-      - 🇺🇸 US_14953
-      - 🇺🇸 US_14963
-      - ZZ_18400
-      - ZZ_19103
-      - 🇺🇸 US_14384
-      - 🇺🇸 US_14387
-      - 🇺🇸 US_14764
-      - 🇺🇸 US_14856
-      - 🇺🇸 US_14875
-      - 🇺🇸 US_14930
-      - 🇺🇸 US_14947
-      - 🇺🇸 US_14972
-      - 🇺🇸 US_14975
-      - ZZ_19102
-      - ZZ_19110
-      - ZZ_19111
-      - ZZ_19113
-      - ZZ_19130
-      - CA_2305 |87.24Mb
-      - 🇺🇸 US_14758
-      - 🇺🇸 US_14838
-      - 🇺🇸 US_14867
-      - 🇺🇸 US_14918
-      - 🇺🇸 US_14923
-      - 🇺🇸 US_14966
-      - 🇺🇸 US_14970
-      - 🇺🇸 US_17826
-      - 🇺🇸 Pool_US_16758
-      - 🇺🇸 US_14804
-      - 🇺🇸 US_14832
-      - 🇺🇸 US_14834
-      - 🇺🇸 US_14909
-      - 🇺🇸 US_14927
-      - 🇺🇸 US_14973
-      - 🇺🇸 US_14386
-      - 🇺🇸 US_14962
-      - 🇰🇷 KR_8312
-      - 🇺🇸 US_14799
-      - 🇺🇸 US_14873
-      - CA_2275 |69.05Mb
+      - Pool_
+      - 🇷🇴 RO_8175 |70.77Mb
+      - ZZ_97
+      - 🇷🇴 RO_8177 |68.25Mb
+      - ZZ_16573
+      - ZZ_16585
+      - ZZ_16586
+      - ZZ_16636
+      - 🇺🇸 US_58
+      - ZZ_16671
+      - ZZ_16593
+      - ZZ_16646
+      - ZZ_16595
+      - ZZ_16597
+      - ZZ_106
+      - ZZ_16610
+      - ZZ_16629
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 RO_10630
-      - 🇷🇴 RO_10875
-      - 🇷🇴 RO_10877
-      - 🇷🇴 RO_10425
-      - 🇷🇴 RO_10882
-      - 🇷🇴 RO_10629
-      - 🇷🇴 RO_10876
-      - 🇷🇴 RO_10628
-      - 🇫🇷 FR_4649
-      - 🇷🇴 RO_9767
-      - ZZ_19105
-      - CA_2279 |105.04Mb
-      - 🇷🇴 RO_10878
-      - ZZ_19109
-      - 🇺🇸 US_14933
-      - ZZ_18570
-      - ZZ_19093
-      - ZZ_19114
-      - CA_2304 |95.76Mb
-      - 🇺🇸 US_14807
-      - 🇺🇸 US_14865
-      - 🇺🇸 US_14889
-      - 🇺🇸 US_14896
-      - 🇺🇸 US_14906
-      - 🇷🇴 RO_1790
-      - 🇺🇸 US_14863
-      - 🇺🇸 US_14925
-      - ZZ_19115
-      - ZZ_19117
-      - 🇺🇸 US_14756
-      - 🇺🇸 US_14840
-      - 🇺🇸 US_14848
-      - 🇺🇸 US_14852
-      - 🇺🇸 US_14859
-      - 🇺🇸 US_14861
-      - 🇺🇸 US_14898
-      - ZZ_19107
-      - ZZ_19108
-      - ZZ_19116
-      - CA_2283 |87.16Mb
-      - CA_2311 |103.72Mb
-      - GB_5078
-      - 🇺🇸 US_14609
-      - 🇺🇸 US_14900
-      - 🇺🇸 US_14914
-      - 🇺🇸 US_14953
-      - 🇺🇸 US_14963
-      - ZZ_18400
-      - ZZ_19103
-      - 🇺🇸 US_14384
-      - 🇺🇸 US_14387
-      - 🇺🇸 US_14764
-      - 🇺🇸 US_14856
-      - 🇺🇸 US_14875
-      - 🇺🇸 US_14930
-      - 🇺🇸 US_14947
-      - 🇺🇸 US_14972
-      - 🇺🇸 US_14975
-      - ZZ_19102
-      - ZZ_19110
-      - ZZ_19111
-      - ZZ_19113
-      - ZZ_19130
-      - CA_2305 |87.24Mb
-      - 🇺🇸 US_14758
-      - 🇺🇸 US_14838
-      - 🇺🇸 US_14867
-      - 🇺🇸 US_14918
-      - 🇺🇸 US_14923
-      - 🇺🇸 US_14966
-      - 🇺🇸 US_14970
-      - 🇺🇸 US_17826
-      - 🇺🇸 Pool_US_16758
-      - 🇺🇸 US_14804
-      - 🇺🇸 US_14832
-      - 🇺🇸 US_14834
-      - 🇺🇸 US_14909
-      - 🇺🇸 US_14927
-      - 🇺🇸 US_14973
-      - 🇺🇸 US_14386
-      - 🇺🇸 US_14962
-      - 🇰🇷 KR_8312
-      - 🇺🇸 US_14799
-      - 🇺🇸 US_14873
-      - CA_2275 |69.05Mb
+      - Pool_
+      - 🇷🇴 RO_8175 |70.77Mb
+      - ZZ_97
+      - 🇷🇴 RO_8177 |68.25Mb
+      - ZZ_16573
+      - ZZ_16585
+      - ZZ_16586
+      - ZZ_16636
+      - 🇺🇸 US_58
+      - ZZ_16671
+      - ZZ_16593
+      - ZZ_16646
+      - ZZ_16595
+      - ZZ_16597
+      - ZZ_106
+      - ZZ_16610
+      - ZZ_16629
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -653,91 +177,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇴 RO_10630
-      - 🇷🇴 RO_10875
-      - 🇷🇴 RO_10877
-      - 🇷🇴 RO_10425
-      - 🇷🇴 RO_10882
-      - 🇷🇴 RO_10629
-      - 🇷🇴 RO_10876
-      - 🇷🇴 RO_10628
-      - 🇫🇷 FR_4649
-      - 🇷🇴 RO_9767
-      - ZZ_19105
-      - CA_2279 |105.04Mb
-      - 🇷🇴 RO_10878
-      - ZZ_19109
-      - 🇺🇸 US_14933
-      - ZZ_18570
-      - ZZ_19093
-      - ZZ_19114
-      - CA_2304 |95.76Mb
-      - 🇺🇸 US_14807
-      - 🇺🇸 US_14865
-      - 🇺🇸 US_14889
-      - 🇺🇸 US_14896
-      - 🇺🇸 US_14906
-      - 🇷🇴 RO_1790
-      - 🇺🇸 US_14863
-      - 🇺🇸 US_14925
-      - ZZ_19115
-      - ZZ_19117
-      - 🇺🇸 US_14756
-      - 🇺🇸 US_14840
-      - 🇺🇸 US_14848
-      - 🇺🇸 US_14852
-      - 🇺🇸 US_14859
-      - 🇺🇸 US_14861
-      - 🇺🇸 US_14898
-      - ZZ_19107
-      - ZZ_19108
-      - ZZ_19116
-      - CA_2283 |87.16Mb
-      - CA_2311 |103.72Mb
-      - GB_5078
-      - 🇺🇸 US_14609
-      - 🇺🇸 US_14900
-      - 🇺🇸 US_14914
-      - 🇺🇸 US_14953
-      - 🇺🇸 US_14963
-      - ZZ_18400
-      - ZZ_19103
-      - 🇺🇸 US_14384
-      - 🇺🇸 US_14387
-      - 🇺🇸 US_14764
-      - 🇺🇸 US_14856
-      - 🇺🇸 US_14875
-      - 🇺🇸 US_14930
-      - 🇺🇸 US_14947
-      - 🇺🇸 US_14972
-      - 🇺🇸 US_14975
-      - ZZ_19102
-      - ZZ_19110
-      - ZZ_19111
-      - ZZ_19113
-      - ZZ_19130
-      - CA_2305 |87.24Mb
-      - 🇺🇸 US_14758
-      - 🇺🇸 US_14838
-      - 🇺🇸 US_14867
-      - 🇺🇸 US_14918
-      - 🇺🇸 US_14923
-      - 🇺🇸 US_14966
-      - 🇺🇸 US_14970
-      - 🇺🇸 US_17826
-      - 🇺🇸 Pool_US_16758
-      - 🇺🇸 US_14804
-      - 🇺🇸 US_14832
-      - 🇺🇸 US_14834
-      - 🇺🇸 US_14909
-      - 🇺🇸 US_14927
-      - 🇺🇸 US_14973
-      - 🇺🇸 US_14386
-      - 🇺🇸 US_14962
-      - 🇰🇷 KR_8312
-      - 🇺🇸 US_14799
-      - 🇺🇸 US_14873
-      - CA_2275 |69.05Mb
+      - Pool_
+      - 🇷🇴 RO_8175 |70.77Mb
+      - ZZ_97
+      - 🇷🇴 RO_8177 |68.25Mb
+      - ZZ_16573
+      - ZZ_16585
+      - ZZ_16586
+      - ZZ_16636
+      - 🇺🇸 US_58
+      - ZZ_16671
+      - ZZ_16593
+      - ZZ_16646
+      - ZZ_16595
+      - ZZ_16597
+      - ZZ_106
+      - ZZ_16610
+      - ZZ_16629
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
