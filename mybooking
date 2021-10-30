@@ -5,91 +5,295 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Pool_, server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇷🇴 RO_8175 |70.77Mb, server: 79.110.54.133, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
-  - {name: ZZ_97, server: 134.195.196.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇷🇴 RO_8177 |68.25Mb, server: 79.110.54.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: ZZ_16573, server: 134.195.196.51, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: ZZ_16585, server: 134.195.196.199, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_16586, server: 134.195.196.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: ZZ_16636, server: 134.195.196.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US_58, server: 172.99.190.35, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: ZZ_16671, server: 134.195.196.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: _277 |40.86Mb, server: 37.19.211.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 US_11476, server: 148.72.174.48, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: ZZ_16593, server: 134.195.196.179, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ZZ_16646, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: ZZ_16595, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: ZZ_16597, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: ZZ_106, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: ZZ_16610, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16300, server: 134.195.196.199, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16303, server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_51, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16312, server: 134.195.196.179, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16338, server: 134.195.196.24, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16358, server: 134.195.196.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16375, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: ZZ_16629, server: 134.195.196.179, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16275, server: 134.195.196.199, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16289, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16310, server: 134.195.196.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16311, server: 134.195.196.179, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16323, server: 134.195.196.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16324, server: 134.195.196.231, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16334, server: 134.195.196.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16342, server: 134.195.196.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16402, server: 134.195.196.199, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16586, server: 134.195.196.199, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16646, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_106, server: 134.195.196.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 HK_4857, server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 US_11211, server: 167.88.61.2, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇸 US_13807, server: 38.107.226.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16277, server: 134.195.196.199, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16287, server: 134.195.196.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16320, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16327, server: 134.195.196.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16335, server: 134.195.196.24, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16517, server: 134.195.196.24, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16346, server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16348, server: 134.195.196.179, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16361, server: 134.195.196.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16280, server: 134.195.196.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_53, server: 134.195.196.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 US_13794, server: 38.107.226.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_13805, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16286, server: 134.195.196.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16292, server: 134.195.196.24, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16307, server: 134.195.196.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16340, server: 134.195.196.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16347, server: 134.195.196.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16376, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16378, server: 134.195.196.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 FR_4048, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16301, server: 134.195.196.199, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_16326, server: 134.195.196.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16341, server: 134.195.196.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16350, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16357, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_13813, server: 38.107.226.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16290, server: 134.195.196.231, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ZZ_16359, server: 134.195.196.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16362, server: 134.195.196.179, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ZZ_16369, server: 134.195.196.231, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16379, server: 134.195.196.24, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 US_2182, server: 156.146.33.81, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: ZZ_16282, server: 134.195.196.199, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ZZ_16597, server: 134.195.196.199, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ZZ_97, server: 134.195.196.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸 US_13692, server: 38.107.226.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16274, server: 134.195.196.179, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ZZ_16392, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ZZ_16401, server: 134.195.196.231, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_
-      - 🇷🇴 RO_8175 |70.77Mb
-      - ZZ_97
-      - 🇷🇴 RO_8177 |68.25Mb
-      - ZZ_16573
       - ZZ_16585
-      - ZZ_16586
-      - ZZ_16636
-      - 🇺🇸 US_58
-      - ZZ_16671
+      - _277 |40.86Mb
+      - 🇺🇸 US_11476
       - ZZ_16593
-      - ZZ_16646
       - ZZ_16595
-      - ZZ_16597
-      - ZZ_106
-      - ZZ_16610
+      - ZZ_16300
+      - ZZ_16303
+      - ZZ_51
+      - ZZ_16312
+      - ZZ_16338
+      - ZZ_16358
+      - ZZ_16375
       - ZZ_16629
+      - ZZ_16275
+      - ZZ_16289
+      - ZZ_16310
+      - ZZ_16311
+      - ZZ_16323
+      - ZZ_16324
+      - ZZ_16334
+      - ZZ_16342
+      - ZZ_16402
+      - ZZ_16586
+      - ZZ_16646
+      - ZZ_106
+      - 🇭🇰 HK_4857
+      - 🇺🇸 US_11211
+      - 🇺🇸 US_13807
+      - ZZ_16277
+      - ZZ_16287
+      - ZZ_16320
+      - ZZ_16327
+      - ZZ_16335
+      - ZZ_16517
+      - ZZ_16346
+      - ZZ_16348
+      - ZZ_16361
+      - ZZ_16280
+      - ZZ_53
+      - 🇺🇸 US_13794
+      - 🇺🇸 US_13805
+      - ZZ_16286
+      - ZZ_16292
+      - ZZ_16307
+      - ZZ_16340
+      - ZZ_16347
+      - ZZ_16376
+      - ZZ_16378
+      - 🇫🇷 FR_4048
+      - ZZ_16301
+      - ZZ_16326
+      - ZZ_16341
+      - ZZ_16350
+      - ZZ_16357
+      - 🇺🇸 US_13813
+      - ZZ_16290
+      - ZZ_16359
+      - ZZ_16362
+      - ZZ_16369
+      - ZZ_16379
+      - 🇺🇸 US_2182
+      - ZZ_16282
+      - ZZ_16597
+      - ZZ_97
+      - 🇺🇸 US_13692
+      - ZZ_16274
+      - ZZ_16392
+      - ZZ_16401
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Pool_
-      - 🇷🇴 RO_8175 |70.77Mb
-      - ZZ_97
-      - 🇷🇴 RO_8177 |68.25Mb
-      - ZZ_16573
       - ZZ_16585
-      - ZZ_16586
-      - ZZ_16636
-      - 🇺🇸 US_58
-      - ZZ_16671
+      - _277 |40.86Mb
+      - 🇺🇸 US_11476
       - ZZ_16593
-      - ZZ_16646
       - ZZ_16595
-      - ZZ_16597
-      - ZZ_106
-      - ZZ_16610
+      - ZZ_16300
+      - ZZ_16303
+      - ZZ_51
+      - ZZ_16312
+      - ZZ_16338
+      - ZZ_16358
+      - ZZ_16375
       - ZZ_16629
+      - ZZ_16275
+      - ZZ_16289
+      - ZZ_16310
+      - ZZ_16311
+      - ZZ_16323
+      - ZZ_16324
+      - ZZ_16334
+      - ZZ_16342
+      - ZZ_16402
+      - ZZ_16586
+      - ZZ_16646
+      - ZZ_106
+      - 🇭🇰 HK_4857
+      - 🇺🇸 US_11211
+      - 🇺🇸 US_13807
+      - ZZ_16277
+      - ZZ_16287
+      - ZZ_16320
+      - ZZ_16327
+      - ZZ_16335
+      - ZZ_16517
+      - ZZ_16346
+      - ZZ_16348
+      - ZZ_16361
+      - ZZ_16280
+      - ZZ_53
+      - 🇺🇸 US_13794
+      - 🇺🇸 US_13805
+      - ZZ_16286
+      - ZZ_16292
+      - ZZ_16307
+      - ZZ_16340
+      - ZZ_16347
+      - ZZ_16376
+      - ZZ_16378
+      - 🇫🇷 FR_4048
+      - ZZ_16301
+      - ZZ_16326
+      - ZZ_16341
+      - ZZ_16350
+      - ZZ_16357
+      - 🇺🇸 US_13813
+      - ZZ_16290
+      - ZZ_16359
+      - ZZ_16362
+      - ZZ_16369
+      - ZZ_16379
+      - 🇺🇸 US_2182
+      - ZZ_16282
+      - ZZ_16597
+      - ZZ_97
+      - 🇺🇸 US_13692
+      - ZZ_16274
+      - ZZ_16392
+      - ZZ_16401
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_
-      - 🇷🇴 RO_8175 |70.77Mb
-      - ZZ_97
-      - 🇷🇴 RO_8177 |68.25Mb
-      - ZZ_16573
       - ZZ_16585
-      - ZZ_16586
-      - ZZ_16636
-      - 🇺🇸 US_58
-      - ZZ_16671
+      - _277 |40.86Mb
+      - 🇺🇸 US_11476
       - ZZ_16593
-      - ZZ_16646
       - ZZ_16595
-      - ZZ_16597
-      - ZZ_106
-      - ZZ_16610
+      - ZZ_16300
+      - ZZ_16303
+      - ZZ_51
+      - ZZ_16312
+      - ZZ_16338
+      - ZZ_16358
+      - ZZ_16375
       - ZZ_16629
+      - ZZ_16275
+      - ZZ_16289
+      - ZZ_16310
+      - ZZ_16311
+      - ZZ_16323
+      - ZZ_16324
+      - ZZ_16334
+      - ZZ_16342
+      - ZZ_16402
+      - ZZ_16586
+      - ZZ_16646
+      - ZZ_106
+      - 🇭🇰 HK_4857
+      - 🇺🇸 US_11211
+      - 🇺🇸 US_13807
+      - ZZ_16277
+      - ZZ_16287
+      - ZZ_16320
+      - ZZ_16327
+      - ZZ_16335
+      - ZZ_16517
+      - ZZ_16346
+      - ZZ_16348
+      - ZZ_16361
+      - ZZ_16280
+      - ZZ_53
+      - 🇺🇸 US_13794
+      - 🇺🇸 US_13805
+      - ZZ_16286
+      - ZZ_16292
+      - ZZ_16307
+      - ZZ_16340
+      - ZZ_16347
+      - ZZ_16376
+      - ZZ_16378
+      - 🇫🇷 FR_4048
+      - ZZ_16301
+      - ZZ_16326
+      - ZZ_16341
+      - ZZ_16350
+      - ZZ_16357
+      - 🇺🇸 US_13813
+      - ZZ_16290
+      - ZZ_16359
+      - ZZ_16362
+      - ZZ_16369
+      - ZZ_16379
+      - 🇺🇸 US_2182
+      - ZZ_16282
+      - ZZ_16597
+      - ZZ_97
+      - 🇺🇸 US_13692
+      - ZZ_16274
+      - ZZ_16392
+      - ZZ_16401
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,68 +304,221 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Pool_
-      - 🇷🇴 RO_8175 |70.77Mb
-      - ZZ_97
-      - 🇷🇴 RO_8177 |68.25Mb
-      - ZZ_16573
       - ZZ_16585
-      - ZZ_16586
-      - ZZ_16636
-      - 🇺🇸 US_58
-      - ZZ_16671
+      - _277 |40.86Mb
+      - 🇺🇸 US_11476
       - ZZ_16593
-      - ZZ_16646
       - ZZ_16595
-      - ZZ_16597
-      - ZZ_106
-      - ZZ_16610
+      - ZZ_16300
+      - ZZ_16303
+      - ZZ_51
+      - ZZ_16312
+      - ZZ_16338
+      - ZZ_16358
+      - ZZ_16375
       - ZZ_16629
+      - ZZ_16275
+      - ZZ_16289
+      - ZZ_16310
+      - ZZ_16311
+      - ZZ_16323
+      - ZZ_16324
+      - ZZ_16334
+      - ZZ_16342
+      - ZZ_16402
+      - ZZ_16586
+      - ZZ_16646
+      - ZZ_106
+      - 🇭🇰 HK_4857
+      - 🇺🇸 US_11211
+      - 🇺🇸 US_13807
+      - ZZ_16277
+      - ZZ_16287
+      - ZZ_16320
+      - ZZ_16327
+      - ZZ_16335
+      - ZZ_16517
+      - ZZ_16346
+      - ZZ_16348
+      - ZZ_16361
+      - ZZ_16280
+      - ZZ_53
+      - 🇺🇸 US_13794
+      - 🇺🇸 US_13805
+      - ZZ_16286
+      - ZZ_16292
+      - ZZ_16307
+      - ZZ_16340
+      - ZZ_16347
+      - ZZ_16376
+      - ZZ_16378
+      - 🇫🇷 FR_4048
+      - ZZ_16301
+      - ZZ_16326
+      - ZZ_16341
+      - ZZ_16350
+      - ZZ_16357
+      - 🇺🇸 US_13813
+      - ZZ_16290
+      - ZZ_16359
+      - ZZ_16362
+      - ZZ_16369
+      - ZZ_16379
+      - 🇺🇸 US_2182
+      - ZZ_16282
+      - ZZ_16597
+      - ZZ_97
+      - 🇺🇸 US_13692
+      - ZZ_16274
+      - ZZ_16392
+      - ZZ_16401
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Pool_
-      - 🇷🇴 RO_8175 |70.77Mb
-      - ZZ_97
-      - 🇷🇴 RO_8177 |68.25Mb
-      - ZZ_16573
       - ZZ_16585
-      - ZZ_16586
-      - ZZ_16636
-      - 🇺🇸 US_58
-      - ZZ_16671
+      - _277 |40.86Mb
+      - 🇺🇸 US_11476
       - ZZ_16593
-      - ZZ_16646
       - ZZ_16595
-      - ZZ_16597
-      - ZZ_106
-      - ZZ_16610
+      - ZZ_16300
+      - ZZ_16303
+      - ZZ_51
+      - ZZ_16312
+      - ZZ_16338
+      - ZZ_16358
+      - ZZ_16375
       - ZZ_16629
+      - ZZ_16275
+      - ZZ_16289
+      - ZZ_16310
+      - ZZ_16311
+      - ZZ_16323
+      - ZZ_16324
+      - ZZ_16334
+      - ZZ_16342
+      - ZZ_16402
+      - ZZ_16586
+      - ZZ_16646
+      - ZZ_106
+      - 🇭🇰 HK_4857
+      - 🇺🇸 US_11211
+      - 🇺🇸 US_13807
+      - ZZ_16277
+      - ZZ_16287
+      - ZZ_16320
+      - ZZ_16327
+      - ZZ_16335
+      - ZZ_16517
+      - ZZ_16346
+      - ZZ_16348
+      - ZZ_16361
+      - ZZ_16280
+      - ZZ_53
+      - 🇺🇸 US_13794
+      - 🇺🇸 US_13805
+      - ZZ_16286
+      - ZZ_16292
+      - ZZ_16307
+      - ZZ_16340
+      - ZZ_16347
+      - ZZ_16376
+      - ZZ_16378
+      - 🇫🇷 FR_4048
+      - ZZ_16301
+      - ZZ_16326
+      - ZZ_16341
+      - ZZ_16350
+      - ZZ_16357
+      - 🇺🇸 US_13813
+      - ZZ_16290
+      - ZZ_16359
+      - ZZ_16362
+      - ZZ_16369
+      - ZZ_16379
+      - 🇺🇸 US_2182
+      - ZZ_16282
+      - ZZ_16597
+      - ZZ_97
+      - 🇺🇸 US_13692
+      - ZZ_16274
+      - ZZ_16392
+      - ZZ_16401
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_
-      - 🇷🇴 RO_8175 |70.77Mb
-      - ZZ_97
-      - 🇷🇴 RO_8177 |68.25Mb
-      - ZZ_16573
       - ZZ_16585
-      - ZZ_16586
-      - ZZ_16636
-      - 🇺🇸 US_58
-      - ZZ_16671
+      - _277 |40.86Mb
+      - 🇺🇸 US_11476
       - ZZ_16593
-      - ZZ_16646
       - ZZ_16595
-      - ZZ_16597
-      - ZZ_106
-      - ZZ_16610
+      - ZZ_16300
+      - ZZ_16303
+      - ZZ_51
+      - ZZ_16312
+      - ZZ_16338
+      - ZZ_16358
+      - ZZ_16375
       - ZZ_16629
+      - ZZ_16275
+      - ZZ_16289
+      - ZZ_16310
+      - ZZ_16311
+      - ZZ_16323
+      - ZZ_16324
+      - ZZ_16334
+      - ZZ_16342
+      - ZZ_16402
+      - ZZ_16586
+      - ZZ_16646
+      - ZZ_106
+      - 🇭🇰 HK_4857
+      - 🇺🇸 US_11211
+      - 🇺🇸 US_13807
+      - ZZ_16277
+      - ZZ_16287
+      - ZZ_16320
+      - ZZ_16327
+      - ZZ_16335
+      - ZZ_16517
+      - ZZ_16346
+      - ZZ_16348
+      - ZZ_16361
+      - ZZ_16280
+      - ZZ_53
+      - 🇺🇸 US_13794
+      - 🇺🇸 US_13805
+      - ZZ_16286
+      - ZZ_16292
+      - ZZ_16307
+      - ZZ_16340
+      - ZZ_16347
+      - ZZ_16376
+      - ZZ_16378
+      - 🇫🇷 FR_4048
+      - ZZ_16301
+      - ZZ_16326
+      - ZZ_16341
+      - ZZ_16350
+      - ZZ_16357
+      - 🇺🇸 US_13813
+      - ZZ_16290
+      - ZZ_16359
+      - ZZ_16362
+      - ZZ_16369
+      - ZZ_16379
+      - 🇺🇸 US_2182
+      - ZZ_16282
+      - ZZ_16597
+      - ZZ_97
+      - 🇺🇸 US_13692
+      - ZZ_16274
+      - ZZ_16392
+      - ZZ_16401
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -177,23 +534,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_
-      - 🇷🇴 RO_8175 |70.77Mb
-      - ZZ_97
-      - 🇷🇴 RO_8177 |68.25Mb
-      - ZZ_16573
       - ZZ_16585
-      - ZZ_16586
-      - ZZ_16636
-      - 🇺🇸 US_58
-      - ZZ_16671
+      - _277 |40.86Mb
+      - 🇺🇸 US_11476
       - ZZ_16593
-      - ZZ_16646
       - ZZ_16595
-      - ZZ_16597
-      - ZZ_106
-      - ZZ_16610
+      - ZZ_16300
+      - ZZ_16303
+      - ZZ_51
+      - ZZ_16312
+      - ZZ_16338
+      - ZZ_16358
+      - ZZ_16375
       - ZZ_16629
+      - ZZ_16275
+      - ZZ_16289
+      - ZZ_16310
+      - ZZ_16311
+      - ZZ_16323
+      - ZZ_16324
+      - ZZ_16334
+      - ZZ_16342
+      - ZZ_16402
+      - ZZ_16586
+      - ZZ_16646
+      - ZZ_106
+      - 🇭🇰 HK_4857
+      - 🇺🇸 US_11211
+      - 🇺🇸 US_13807
+      - ZZ_16277
+      - ZZ_16287
+      - ZZ_16320
+      - ZZ_16327
+      - ZZ_16335
+      - ZZ_16517
+      - ZZ_16346
+      - ZZ_16348
+      - ZZ_16361
+      - ZZ_16280
+      - ZZ_53
+      - 🇺🇸 US_13794
+      - 🇺🇸 US_13805
+      - ZZ_16286
+      - ZZ_16292
+      - ZZ_16307
+      - ZZ_16340
+      - ZZ_16347
+      - ZZ_16376
+      - ZZ_16378
+      - 🇫🇷 FR_4048
+      - ZZ_16301
+      - ZZ_16326
+      - ZZ_16341
+      - ZZ_16350
+      - ZZ_16357
+      - 🇺🇸 US_13813
+      - ZZ_16290
+      - ZZ_16359
+      - ZZ_16362
+      - ZZ_16369
+      - ZZ_16379
+      - 🇺🇸 US_2182
+      - ZZ_16282
+      - ZZ_16597
+      - ZZ_97
+      - 🇺🇸 US_13692
+      - ZZ_16274
+      - ZZ_16392
+      - ZZ_16401
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
